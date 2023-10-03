@@ -1,0 +1,15 @@
+# Bookd_0.12.45
+
+MySQL Code 
+
+CREATE DATABASE Bookd;
+
+USE Bookd;
+
+CREATE TABLE userinfo (
+userid INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+email VARCHAR(255) NOT NULL,
+firstName VARCHAR(255) NOT NULL,
+lastName VARCHAR(255) NOT NULL,
+password VARCHAR(255) NOT NULL
+);
